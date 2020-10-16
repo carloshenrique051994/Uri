@@ -1,7 +1,7 @@
 vezesInput = 0
 valoresPositivos = 0
 soma = 0
-for c in range(0,6,1):
+for c in range(0, 6, 1):
     valor = float(input())
     if valor > 0:
         valoresPositivos += 1

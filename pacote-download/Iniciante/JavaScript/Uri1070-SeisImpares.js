@@ -2,12 +2,8 @@ var input = require('fs').readFileSync('JavaScript/stdin', 'utf8');
 var lines = input.split('\n')
 
 var valor = Number(lines.shift())
-var impar = 0
-
-for (i = 0; i <= valor; i++) {
-    if (i % 2 !== 0) {
-        console.log(`${i}`)
-    }
+var contador = 1
+while (contador <= 6) {
+    console.log(contador)
+    contador += 1
 }
-
-

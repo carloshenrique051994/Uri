@@ -4,6 +4,9 @@ var lines = input.split('\n')
 var valor = Number(lines.shift())
 var contador = 1
 while (contador <= 6) {
-    console.log(contador)
-    contador += 1
+    if (valor % 2 != 0) {
+        contador += 1
+        console.log(valor)
+    }
+    valor += 1
 }

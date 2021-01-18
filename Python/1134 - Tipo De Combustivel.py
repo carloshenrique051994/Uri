@@ -10,4 +10,5 @@ while(True):
     elif tipoCombustivel == 4:
         break
 print(
-    f'MUITO OBRIGADO\nAlcool: {contadorAlcool}\nGasolina: {contadorGasolina}\nDiesel: {contadorDiesel}')
+    f'MUITO OBRIGADO\nAlcool: {contadorAlcool}\nGasolina: {contadorGasolina}')
+print(f'Diesel: {contadorDiesel}')
